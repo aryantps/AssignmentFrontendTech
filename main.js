@@ -1,4 +1,4 @@
-// alert('JS IS WORKING')
+//form-fields
 var enrolledName = document.getElementById('enrollName');
 var email = document.querySelector('#inputEmail');
 var website = document.querySelector('#inputWebsite');
@@ -14,7 +14,7 @@ var skillsValue = '';
 var submitButton = document.querySelector('#enrollBtn');
 var tableRowCounter = 1;
 
-
+//function to add details in table
 function AddStudent() {
     if (submitButton.classList.contains('disabled')) {
         return;
@@ -51,6 +51,7 @@ function AddStudent() {
     tableRowCounter += 1;
 }
 
+//function to clear input fields
 function ClearFields() {
     form.reset();
     submitButton.classList.add('disabled');

@@ -43,3 +43,19 @@ html,body{
     background: #A7C941;
     color: white
 }
+
+/* for fade-in animation */
+.tr-animation {
+    animation: fadein 1s ease-in;
+    background-color: blue;
+    margin: 5px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
