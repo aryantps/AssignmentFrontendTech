@@ -1,0 +1,22 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+.jumbotron{
+    background: #46D7AC;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1em;
+}
+.footer-row{
+    background: #46D7AC;
+    bottom: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    height: 5%;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+}
