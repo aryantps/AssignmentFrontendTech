@@ -1,16 +1,17 @@
 // alert('JS IS WORKING')
-var enrolledName = document.getElementById('inputName');
+var enrolledName = document.getElementById('enrollName');
 var email = document.querySelector('#inputEmail');
 var website = document.querySelector('#inputWebsite');
 var image = document.querySelector('#inputImg');
 var gender = document.getElementsByName('gender');
-var skill = document.getElementsByName('skills')
+var skills = document.getElementsByName('skills')
 
 var form = document.getElementById('form');
 var enrolledNone = document.getElementById('enrolledNone');
 var table = document.querySelector('#students-table');
 var genderValue = undefined;
 var skillsValue = '';
+var submitButton = document.querySelector('#enrollBtn');
 var tableRowCounter = 1;
 
 
@@ -37,7 +38,7 @@ function AddStudent() {
                 <div class="gender">${genderValue}</div>
                 <div class="email"><a href="mailto:${email.value}">${email.value}</a></div>
                 <div class="website"><a href="${website.value}" target="_blank">${website.value}</a></div>
-                <div class="skills">${image}</div>
+                <div class="skills">${skillsValue}</div>
             </td>
             <td class='student-info'>
                 <div><img src="${image.value}" alt="student_image" height="100" width="120"/></div>

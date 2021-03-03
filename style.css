@@ -28,3 +28,18 @@ html,body{
 .skills>* {
     padding-right: 8px;
 }
+
+.enrolled-students {
+    height: 60vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    scrollbar-width: thin;
+}
+.student-info {
+    padding: 8px;
+}
+
+#thead-style {
+    background: #A7C941;
+    color: white
+}
